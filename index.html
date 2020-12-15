@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>PassMessage</title>
+</head>
+<body class="bodyBG">
+    <div class="container">
+        <h3 class="msg">Type the message below you want to pass</h3>
+        <form>
+            <input id="entry">
+            <br>
+            <button class="btn btn-outline-primary" onclick="getMessage(); return false;">Submit</button>
+        </form>
+        <h3 class="msg">The message you passed is: </h3>
+        <h3 id="message"></h3>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
